@@ -59,7 +59,7 @@ Vous pouvez également récupérer l'image directement avec la commande :
 🚀 **Installation et Utilisation**
 
 1. **Utilisation avec Docker** 
-Le projet est entièrement containerisé. Pour lancer l'application sans installer Python.
+Le projet est entièrement containerisé. Pour lancer l'application sans installer Python, faites ce qui suit:
 
 
 🚀 **Lancement rapide (Docker Hub)**
