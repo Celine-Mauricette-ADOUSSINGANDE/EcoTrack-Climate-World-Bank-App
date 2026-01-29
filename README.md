@@ -59,14 +59,13 @@ Vous pouvez également récupérer l'image directement avec la commande :
 🚀 **Installation et Utilisation**
 
 1. **Utilisation avec Docker** 
-Le projet est entièrement containerisé. Pour lancer l'application sans installer Python :
-*docker compose up --build*
-Une fois le processus terminé, l'application est accessible sur : http://localhost:8501
+Le projet est entièrement containerisé. Pour lancer l'application sans installer Python.
 
 
-🚀 **Test rapide (Docker Hub)**
+🚀 **Lancement rapide (Docker Hub)**
 Si vous avez Docker, vous pouvez lancer mon application sans télécharger le code source :
 *docker run -p 8501:8501 montcho/eco-track-app:latest*
+Une fois le processus terminé, l'application est accessible sur : http://localhost:8501
 
 
 2. **Installation Locale (Développement)**
