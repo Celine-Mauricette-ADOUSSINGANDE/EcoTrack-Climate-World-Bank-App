@@ -16,3 +16,6 @@ data/processed/*
 .vscode/
 .idea/
 .DS_Store
+
+# Notebooks Jupyter
+climat-1.ipynb
