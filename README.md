@@ -15,7 +15,7 @@ L'application s'appuie sur une bibliothèque Python personnalisée développée 
 
 🔗 **Liens du Projet**
 
-Dépôt GitHub Public : [INSÉRER VOTRE LIEN GITHUB ICI]
+Dépôt GitHub Public : https://github.com/Celine-Mauricette-ADOUSSINGANDE/EcoTrack-Climate-World-Bank-App
 Bibliothèque PyPI : https://pypi.org/project/co2-extractor-wb/
 Image Docker Hub  : https://hub.docker.com/repository/docker/montcho/eco-track-app/general
 
