@@ -1,0 +1,18 @@
+# Environnements virtuels
+climat_env/
+venv/
+.venv/
+
+# Caches Python
+**/__pycache__/
+*.pyc
+
+# Données 
+data/raw/*
+data/processed/*
+
+# Secrets et IDE
+.env
+.vscode/
+.idea/
+.DS_Store

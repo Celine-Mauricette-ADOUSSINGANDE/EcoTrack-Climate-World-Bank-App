@@ -1,0 +1,27 @@
+# Ne pas copier les environnements virtuels
+climat_env/
+venv/
+.venv/
+env/
+
+# Ne pas copier les caches Python
+**/__pycache__/
+*.pyc
+
+# Ne pas copier les données volumineuses ou temporaires
+data/raw/
+data/processed/
+
+# Ne pas copier les fichiers système et IDE
+.git/
+.gitignore
+.vscode/
+.DS_Store
+
+# Ne pas copier les notebooks de test
+*.ipynb
+
+# Ne pas copier les fichiers de construction de la lib
+co2-extractor-wb/dist/
+co2-extractor-wb/build/
+co2-extractor-wb/src/*.egg-info

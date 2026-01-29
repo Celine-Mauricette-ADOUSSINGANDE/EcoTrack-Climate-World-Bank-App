@@ -1,0 +1,10 @@
+services:
+  eco-track:
+    build: .
+    container_name: eco_track_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - LOG_LEVEL=INFO

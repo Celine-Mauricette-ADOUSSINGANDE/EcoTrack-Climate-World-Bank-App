@@ -1,0 +1,17 @@
+pandas>=2.2
+numpy
+matplotlib
+seaborn
+scikit-learn
+plotly
+requests==2.31.0
+python-dotenv==1.0.0
+beautifulsoup4
+lxml
+nltk
+spacy
+tensorflow
+keras
+streamlit
+co2-extractor-wb==0.1.0
+
