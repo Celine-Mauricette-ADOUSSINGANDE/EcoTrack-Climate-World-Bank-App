@@ -84,10 +84,12 @@ FINAL_PROJECT/
 
 
 ## 🐳 Docker Hub
+
 Retrouvez l'image Docker de l'application ici :  
 https://hub.docker.com/repository/docker/montcho/eco-track-app/general
 
 Vous pouvez également récupérer l'image directement avec la commande :
+
 *docker pull montcho/eco-track-app:latest*
 
 
