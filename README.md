@@ -13,11 +13,32 @@ EcoTrack est une application de données complète permettant de traiter, analys
 L'application s'appuie sur une bibliothèque Python personnalisée développée par nos soins et publiée sur PyPI pour l'extraction des données de la Banque Mondiale.
 
 
+**Indicateurs**
+
+- "co2_per_capita": "EN.GHG.CO2.PC.CE.AR5",   # CO2 par habitant
+
+- "forest_area": "AG.LND.FRST.ZS",            # Surface forestière (%)
+
+- "gdp_per_capita": "NY.GDP.PCAP.CD",         # PIB par habitant
+
+- "total_ghg": "EN.GHG.ALL.MT.CE.AR5"         # Emissions totales de GES (Mt)
+
+
+# Exemple pour le PIB de la France uniquement
+
+df_fr_gdp = CO2Extractor.get_co2_data(indicator="NY.GDP.PCAP.CD", country="FR")
+
+🛠 Développement (Installation locale)
+
+
 🔗 **Liens du Projet**
 
-Dépôt GitHub Public : https://github.com/Celine-Mauricette-ADOUSSINGANDE/EcoTrack-Climate-World-Bank-App
-Bibliothèque PyPI : https://pypi.org/project/co2-extractor-wb/
-Image Docker Hub  : https://hub.docker.com/repository/docker/montcho/eco-track-app/general
+- Dépôt GitHub Public : https://github.com/Celine-Mauricette-ADOUSSINGANDE/
+EcoTrack-Climate-World-Bank-App
+
+- Bibliothèque PyPI : https://pypi.org/project/co2-extractor-wb/
+
+- Image Docker Hub  : https://hub.docker.com/repository/docker/montcho/eco-track-app/general
 
 
 🛠 **Technologies Utilisées**
@@ -31,20 +52,35 @@ Image Docker Hub  : https://hub.docker.com/repository/docker/montcho/eco-track-a
 🏗 **Structure du Projet**
 
 FINAL_PROJECT/
+
 ├── Dockerfile              # Configuration de l'image Docker
+
 ├── compose.yml             # Orchestration des services
+
 ├── requirements.txt        # Dépendances Python
+
 ├── main.py                 # Script principal d'acquisition/analyse
+
 ├── config.py               # Configuration et Logging
+
 ├── app/
+
 │   └── streamlit_app.py    # Interface utilisateur Streamlit
+
 ├── src/
+
 │   ├── data_loader.py      # Module d'acquisition (utilise la lib PyPI)
+
 │   ├── processor.py        # Module de nettoyage des données
+
 │   └── analyzer.py         # Module d'analyse statistique
+
 ├── data/
+
 │   ├── raw/                # Données brutes (ignorées par Git si > 5Mo)
+
 │   └── processed/          # Données nettoyées et tendances
+
 └── co2-extractor-wb/       # Code source de la bibliothèque personnalisée
 
 
