@@ -33,8 +33,7 @@ df_fr_gdp = CO2Extractor.get_co2_data(indicator="NY.GDP.PCAP.CD", country="FR")
 
 🔗 **Liens du Projet**
 
-- Dépôt GitHub Public : https://github.com/Celine-Mauricette-ADOUSSINGANDE/
-EcoTrack-Climate-World-Bank-App
+- Dépôt GitHub Public : https://github.com/Celine-Mauricette-ADOUSSINGANDE/EcoTrack-Climate-World-Bank-App
 
 - Bibliothèque PyPI : https://pypi.org/project/co2-extractor-wb/
 
@@ -101,6 +100,7 @@ Le projet est entièrement containerisé. Pour lancer l'application sans install
 🚀 **Lancement rapide (Docker Hub)**
 Si vous avez Docker, vous pouvez lancer mon application sans télécharger le code source :
 *docker run -p 8501:8501 montcho/eco-track-app:latest*
+
 Une fois le processus terminé, l'application est accessible sur : http://localhost:8501
 
 
