@@ -27,7 +27,7 @@ class CO2Extractor:
             
             try:
                 logger.info(f"[LIB] Tentative sur : {url}")
-                response = requests.get(url, timeout=20)
+                response = requests.get(url, timeout=60)
                 response.raise_for_status()
                 data = response.json()
 

@@ -17,6 +17,13 @@ def main():
         "total_ghg": "EN.GHG.ALL.MT.CE.AR5"         # Emissions totales de GES (Mt)
     }
 
+    #indicators = {
+    #"co2_per_capita": "EN.ATM.CO2E.PC",       # CO2 par hab (plus rapide que AR5)
+    #"forest_area": "AG.LND.FRST.ZS",          # Inchangé (OK)
+    #"gdp_per_capita": "NY.GDP.PCAP.CD",       # Inchangé (OK)
+    #"total_ghg": "EN.ATM.GHGT.KT.CE"          # Emissions totales GES (plus rapide que AR5)
+ #}
+
     logger.info("DÉMARRAGE DU PIPELINE D'ACQUISITION ET D'ANALYSE")
 
     for name, code in indicators.items():
